@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header>table {
+    float: right;
+    text-indent: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-top: 5vh;
+}
+
+article a div span {
+    height: min-content;
+    width: 250px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+article>a:nth-child(1) {
+    background-image: url(img/turkish-dream-team-gercek-oldu-xantares-eternal-fire-takimini-duyurdu.jpg);
+}
+
+article>a:nth-child(2) {
+    background-image: url(img/fifa-online-4-spikerleri-belli-oldu-1.jpg);
+}
+
+article>a:nth-child(3) {
+    background-image: url(img/355x201-turk-e-sporcularindan-pubgde-tarihi-basari-1637074883014.jpeg);
+}
+
+article>a:nth-child(4) {
+    background-image: url(img/1606292853_VALORANT_2.png);
+}
+
+article>a:nth-child(5) {
+    background-image: url(img/maxresdefault.jpg);
+}
+
+article>a:nth-child(6) {
+    background-image: url(img/channels4_profile.jpg);
+}
+
+article a div {
+    display: flex;
+    align-items: flex-end;
+    height: 400px;
+    width: 600px;
+}
+
+article a {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 600px;
+    height: 400px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+article {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    flex-wrap: wrap;
+    height: 1400px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h1 {
+    color: rgb(0, 0, 0);
+    margin-top: 100px;
+}
+
+footer a {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 600px;
+    height: 400px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+header,
+footer,
+article {
+    padding: 1em;
+}
+
+header,
+footer {
+    background: rgb(255, 255, 255);
+    height: 30vh;
+}
